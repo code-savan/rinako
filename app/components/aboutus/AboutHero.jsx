@@ -17,7 +17,7 @@ const AboutHero = () => (
         </p>
       </div>
     </section>
-    <div className="w-full h-12 bg-white" />
+    
   </>
 );
 
