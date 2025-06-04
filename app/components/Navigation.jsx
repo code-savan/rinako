@@ -2,7 +2,7 @@
 
 const navigationItems = [
   { text: "Home", path: "/" },
-  { text: "About Us", path: "/about" },
+  { text: "About Us", path: "/about-us" },
   { text: "Programs", path: "/programs" },
   { text: "Success Stories", path: "/success-stories" },
   { text: "News", path: "/news" },
