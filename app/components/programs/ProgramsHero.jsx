@@ -3,7 +3,7 @@ import React from "react";
 const ProgramsHero = () => (
   <section className="relative w-full h-[500px] flex items-center bg-black/70 overflow-hidden">
     <img
-      src="/programs-hero-bg.jpg"
+      src="https://images.unsplash.com/photo-1632560962375-99319eaf098b?q=80&w=3131"
       alt="Our Programs"
       className="absolute inset-0 w-full h-full object-cover object-center z-0"
     />
