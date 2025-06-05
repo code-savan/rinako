@@ -7,7 +7,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10 md:gap-6 justify-between w-full">
         {/* Logo & Description */}
         <div className="flex-1 min-w-[220px] flex flex-col gap-4 w-full mb-8 md:mb-0">
-          <img src="/footerlogo.png" alt="Rinako Foundation Logo" className="h-fit w-fit mb-2" />
+          <img src="/logoclear.png" alt="Rinako Foundation Logo" className="h-fit w-[180px]" />
           <p className="text-sm max-w-xs leading-relaxed">
             Dedicated to building a better world through education, healthcare, and support for vulnerable children.
           </p>

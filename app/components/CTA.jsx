@@ -16,7 +16,7 @@ function CTA() {
         />
         <button
           type="submit"
-          className="w-full md:w-auto bg-white text-[#0488c9] font-semibold text-base px-8 py-3 rounded-md md:rounded-l-none md:rounded-r-md transition-colors border border-transparent hover:bg-sky-50 whitespace-nowrap"
+          className="w-full md:w-auto bg-sky-100 cursor-pointer  text-[#0488c9] font-semibold text-base px-8 py-3 rounded-md md:rounded-l-none md:rounded-r-md transition-colors border border-transparent hover:bg-sky-50 whitespace-nowrap"
         >
           Subscribe
         </button>
