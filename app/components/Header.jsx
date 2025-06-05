@@ -32,13 +32,16 @@ function Header() {
             </div>
           </div>
           {/* Hamburger Icon */}
+          <div className="w-fit flex items-center md:hidden">
+          <DonateButton />
           <button
             className="md:hidden ml-auto p-2 text-slate-700 focus:outline-none"
             onClick={() => setMenuOpen((open) => !open)}
             aria-label={menuOpen ? "Close menu" : "Open menu"}
-          >
+            >
             {menuOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
           </button>
+              </div>
         </div>
         {/* Mobile Menu */}
         {menuOpen && (
