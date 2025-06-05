@@ -9,7 +9,7 @@ function HeroSection() {
         alt="Hero background"
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
-      <div className="relative w-full max-w-screen-2xl items-center bg-gradient-to-r from-black/70 to-black/40 flex flex-col justify-center px-4 sm:px-8 py-12 sm:py-16 mx-auto">
+      <div className="relative w-full md:w-[85%] -mt-20 max-w-screen-2xl items-center bg-gradient-to-r from-black/70 to-black/40 flex flex-col justify-center px-4 sm:px-8 py-12 sm:py-16 mx-auto">
         <div className="w-full max-w-2xl flex flex-col justify-start items-center mx-auto">
           <div className="flex flex-col w-full font-bold items-center">
             <div className="text-4xl sm:text-5xl leading-none self-center w-full max-w-full">

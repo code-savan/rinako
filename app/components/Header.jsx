@@ -5,6 +5,7 @@ import Navigation from "./Navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
 import DonateButton from "./DonateButton";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,9 +14,11 @@ function Header() {
     <header className="flex relative flex-col items-center w-full max-w-7xl mx-auto bg-white bg-opacity-90 z-50">
       <div className="flex relative flex-col items-start px-4 py-3 w-full max-w-screen-2xl max-md:px-6 max-md:py-3 max-sm:px-4 max-sm:py-3">
         <div className="flex relative justify-between items-center w-full">
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/34be4681ac279f3be81b2d2b2584ebad9f30873e?placeholderIfAbsent=true"
+          <Image
+            src="/logo.png"
             alt="Rinako Foundation Logo"
+            width={150}
+            height={150}
             className="relative h-16 max-w-[164px] w-[164px] max-sm:h-[54px] max-sm:max-w-[140px] max-sm:w-[140px]"
           />
           {/* Desktop Navigation */}
