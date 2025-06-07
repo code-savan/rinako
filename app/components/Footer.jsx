@@ -31,7 +31,7 @@ function Footer() {
         {/* Contact Us */}
         <div className="flex-1 min-w-[220px] flex flex-col gap-2 w-full mb-8 md:mb-0">
           <div className="font-semibold text-white mb-2">Contact Us</div>
-          <div className="flex items-center gap-2"><MapPin className="w-4 h-4" /> <span>56/57 kachalla borgo street, Gwange 1 ward, Maiduguri Borno State Nigeria</span></div>
+          <div className="flex items-center gap-2"><MapPin className="w-8 h-8" /> <span>56/57 kachalla borgo street, Gwange 1 ward, Maiduguri Borno State Nigeria</span></div>
           <div className="flex items-center gap-2"><Mail className="w-4 h-4" /> <span>info@rinakofoundation.org</span></div>
           <div className="flex items-center gap-2"><Phone className="w-4 h-4" /> <span>+234 80 77 292929</span></div>
         </div>
