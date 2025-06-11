@@ -1,4 +1,5 @@
 import * as React from "react";
+import Link from "next/link";
 
 function SupportMission() {
   return (
@@ -24,9 +25,11 @@ function SupportMission() {
           </div>
           {/* Donate Button */}
           <div className="flex-1 flex items-center justify-center min-w-[260px]">
-            <button className="w-full h-full min-h-[120px] bg-sky-600 hover:bg-sky-700 transition-colors text-white text-lg font-semibold rounded-xl flex items-center justify-center">
-              Donate Now
-            </button>
+            <Link href="/donate" className="w-full h-full min-h-[120px] bg-sky-600 hover:bg-sky-700 transition-colors rounded-xl">
+              <button className="w-full h-full min-h-[120px] bg-sky-600 hover:bg-sky-700 transition-colors text-white text-lg font-semibold rounded-xl flex items-center justify-center">
+                Donate Now
+              </button>
+            </Link>
           </div>
         </div>
         {/* Volunteer Row */}
@@ -63,9 +66,11 @@ function SupportMission() {
               </div>
             </div>
           </div>
-          <button className="w-full bg-sky-600 hover:bg-sky-700 transition-colors text-white text-base font-semibold rounded-lg py-3 mt-2">
-            Apply to Volunteer
-          </button>
+          <Link href="/volunteer-application">
+            <button className="w-full bg-sky-600 hover:bg-sky-700 transition-colors text-white text-base font-semibold rounded-lg py-3 mt-2">
+              Apply to Volunteer
+            </button>
+          </Link>
         </div>
       </div>
     </section>

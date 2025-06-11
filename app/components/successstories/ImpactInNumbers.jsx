@@ -4,25 +4,25 @@ import { User, Landmark, CalendarCheck2, LineChart } from "lucide-react";
 const stats = [
   {
     icon: <User className="w-8 h-8 text-sky-500" />,
-    value: "0+",
+    value: "2000+",
     label: "Lives Impacted",
     desc: "Individuals directly benefiting from our programs",
   },
   {
     icon: <Landmark className="w-8 h-8 text-sky-500" />,
-    value: "0",
+    value: "40+",
     label: "Communities Served",
     desc: "Villages and towns across northeastern Nigeria",
   },
   {
     icon: <CalendarCheck2 className="w-8 h-8 text-sky-500" />,
-    value: "0",
+    value: "65+",
     label: "Programs Completed",
     desc: "Successful initiatives across various sectors",
   },
   {
     icon: <LineChart className="w-8 h-8 text-sky-500" />,
-    value: "0%",
+    value: "93%",
     label: "Success Rate",
     desc: "Projects meeting or exceeding target outcomes",
   },

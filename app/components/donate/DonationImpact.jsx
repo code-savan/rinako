@@ -25,20 +25,26 @@ const DonationImpact = () => {
             <p className="text-slate-600 mb-6">
               Your donation helps provide school supplies, educational materials, and scholarships to children who would otherwise not have access to education.
             </p>
-            <div className="space-y-3">
-              <div className="flex items-center gap-2">
-                <span className="text-sky-600 font-semibold">$25</span>
-                <span className="text-slate-600">provides school supplies for one child</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="text-sky-600 font-semibold">$100</span>
-                <span className="text-slate-600">funds a month of teacher training</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="text-sky-600 font-semibold">$500</span>
-                <span className="text-slate-600">builds a classroom library</span>
-              </div>
-            </div>
+            <ul className="space-y-3">
+              <li className="flex items-center gap-2">
+                <span className="text-green-600">
+                  <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M5 10.5l3.5 3.5 6-7" /></svg>
+                </span>
+                <span className="text-slate-600">Provides school supplies for children</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-green-600">
+                  <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M5 10.5l3.5 3.5 6-7" /></svg>
+                </span>
+                <span className="text-slate-600">Funds teacher training and development</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-green-600">
+                  <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M5 10.5l3.5 3.5 6-7" /></svg>
+                </span>
+                <span className="text-slate-600">Builds classroom libraries and learning spaces</span>
+              </li>
+            </ul>
           </div>
 
           {/* Healthcare Card */}
@@ -50,20 +56,26 @@ const DonationImpact = () => {
             <p className="text-slate-600 mb-6">
               Your support enables us to provide essential medical care, vaccinations, and health education to children and families in underserved communities.
             </p>
-            <div className="space-y-3">
-              <div className="flex items-center gap-2">
-                <span className="text-sky-600 font-semibold">$50</span>
-                <span className="text-slate-600">provides vaccinations for five children</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="text-sky-600 font-semibold">$150</span>
-                <span className="text-slate-600">funds a mobile health clinic visit</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="text-sky-600 font-semibold">$750</span>
-                <span className="text-slate-600">equips a community health center</span>
-              </div>
-            </div>
+            <ul className="space-y-3">
+              <li className="flex items-center gap-2">
+                <span className="text-green-600">
+                  <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M5 10.5l3.5 3.5 6-7" /></svg>
+                </span>
+                <span className="text-slate-600">Provides vaccinations for children</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-green-600">
+                  <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M5 10.5l3.5 3.5 6-7" /></svg>
+                </span>
+                <span className="text-slate-600">Funds mobile health clinic visits</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-green-600">
+                  <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M5 10.5l3.5 3.5 6-7" /></svg>
+                </span>
+                <span className="text-slate-600">Equips community health centers</span>
+              </li>
+            </ul>
           </div>
 
           {/* Community Support Card */}
@@ -75,20 +87,26 @@ const DonationImpact = () => {
             <p className="text-slate-600 mb-6">
               We help build stronger communities through infrastructure projects, clean water initiatives, and economic empowerment programs for families.
             </p>
-            <div className="space-y-3">
-              <div className="flex items-center gap-2">
-                <span className="text-sky-600 font-semibold">$75</span>
-                <span className="text-slate-600">provides clean water for a family</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="text-sky-600 font-semibold">$250</span>
-                <span className="text-slate-600">funds a microfinance loan for a parent</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="text-sky-600 font-semibold">$1,000</span>
-                <span className="text-slate-600">builds a community water well</span>
-              </div>
-            </div>
+            <ul className="space-y-3">
+              <li className="flex items-center gap-2">
+                <span className="text-green-600">
+                  <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M5 10.5l3.5 3.5 6-7" /></svg>
+                </span>
+                <span className="text-slate-600">Provides clean water for families</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-green-600">
+                  <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M5 10.5l3.5 3.5 6-7" /></svg>
+                </span>
+                <span className="text-slate-600">Funds microfinance loans for parents</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-green-600">
+                  <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" d="M5 10.5l3.5 3.5 6-7" /></svg>
+                </span>
+                <span className="text-slate-600">Builds community water wells</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

@@ -21,12 +21,12 @@ function Footer() {
         {/* Quick Links */}
         <div className="flex-1 min-w-[160px] flex flex-col gap-2 w-full mb-8 md:mb-0">
           <div className="font-semibold text-white mb-2">Quick Links</div>
-          <a href="#" className="hover:text-white">About Us</a>
-          <a href="#" className="hover:text-white">Our Programs</a>
-          <a href="#" className="hover:text-white">Success Stories</a>
-          <a href="#" className="hover:text-white">News & Events</a>
-          <a href="#" className="hover:text-white">Donate</a>
-          <a href="#" className="hover:text-white">Volunteer</a>
+          <a href="/aboutus" className="hover:text-white">About Us</a>
+          <a href="/programs" className="hover:text-white">Our Programs</a>
+          <a href="/successstories" className="hover:text-white">Success Stories</a>
+          <a href="/news" className="hover:text-white">News & Events</a>
+          <a href="/donate" className="hover:text-white">Donate</a>
+          <a href="/volunteer-application" className="hover:text-white">Volunteer</a>
         </div>
         {/* Contact Us */}
         <div className="flex-1 min-w-[220px] flex flex-col gap-2 w-full mb-8 md:mb-0">

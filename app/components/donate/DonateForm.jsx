@@ -29,10 +29,10 @@ const DonateForm = () => {
     lastName: "",
     email: "",
     phone: "",
-    address: "",
-    city: "",
-    state: "",
-    zip: "",
+    // address: "",
+    // city: "",
+    // state: "",
+    // zip: "",
     country: "",
     anonymous: false,
     updates: true,
@@ -66,7 +66,7 @@ const DonateForm = () => {
               Enter Amount <span className="text-red-500">*</span>
             </label>
             <div className="relative mb-2">
-              <span className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-lg">$</span>
+              <span className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-lg">₦</span>
               <input
                 id="donation-amount"
                 type="number"
@@ -76,7 +76,7 @@ const DonateForm = () => {
                 onChange={(e) => setAmount(e.target.value)}
               />
             </div>
-            <p className="text-slate-500 text-sm mb-6">Enter the amount you wish to donate (minimum $1)</p>
+            <p className="text-slate-500 text-sm mb-6">Enter the amount you wish to donate</p>
             <h4 className="text-lg font-bold text-slate-900 mb-2">Gift Designation</h4>
             <div className="space-y-3 mb-2">
               {giftDesignations.map((gift) => (
@@ -118,12 +118,12 @@ const DonateForm = () => {
               </div>
             </div>
             <div className="mb-4">
-              <label className="block text-slate-700 font-medium mb-1">Billing Address <span className="text-red-500">*</span></label>
-                <input type="text" placeholder="Street Address" className="w-full rounded-lg border border-slate-300 py-3 px-4 mb-2 focus:border-sky-500 focus:ring-1 focus:ring-sky-200 outline-none bg-white" value={donor.address} onChange={e => setDonor({ ...donor, address: e.target.value })} />
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                <input type="text" placeholder="City" className="w-full rounded-lg border border-slate-300 py-3 px-4 focus:border-sky-500 focus:ring-1 focus:ring-sky-200 outline-none bg-white" value={donor.city} onChange={e => setDonor({ ...donor, city: e.target.value })} />
+              {/* <label className="block text-slate-700 font-medium mb-1">Billing Address <span className="text-red-500">*</span></label>
+                <input type="text" placeholder="Street Address" className="w-full rounded-lg border border-slate-300 py-3 px-4 mb-2 focus:border-sky-500 focus:ring-1 focus:ring-sky-200 outline-none bg-white" value={donor.address} onChange={e => setDonor({ ...donor, address: e.target.value })} /> */}
+              <div className="grid grid-cols-1 gap-2">
+                {/* <input type="text" placeholder="City" className="w-full rounded-lg border border-slate-300 py-3 px-4 focus:border-sky-500 focus:ring-1 focus:ring-sky-200 outline-none bg-white" value={donor.city} onChange={e => setDonor({ ...donor, city: e.target.value })} />
                 <input type="text" placeholder="State/Province" className="w-full rounded-lg border border-slate-300 py-3 px-4 focus:border-sky-500 focus:ring-1 focus:ring-sky-200 outline-none bg-white" value={donor.state} onChange={e => setDonor({ ...donor, state: e.target.value })} />
-                <input type="text" placeholder="Zip/Postal Code" className="w-full rounded-lg border border-slate-300 py-3 px-4 focus:border-sky-500 focus:ring-1 focus:ring-sky-200 outline-none bg-white" value={donor.zip} onChange={e => setDonor({ ...donor, zip: e.target.value })} />
+                <input type="text" placeholder="Zip/Postal Code" className="w-full rounded-lg border border-slate-300 py-3 px-4 focus:border-sky-500 focus:ring-1 focus:ring-sky-200 outline-none bg-white" value={donor.zip} onChange={e => setDonor({ ...donor, zip: e.target.value })} /> */}
               <div className="mt-2">
                 <select className="w-full rounded-lg border border-slate-300 py-3 px-4 focus:border-sky-500 focus:ring-1 focus:ring-sky-200 outline-none bg-slate-50 text-slate-700" value={donor.country} onChange={e => setDonor({ ...donor, country: e.target.value })}>
                   <option value="">Select Country</option>
@@ -158,22 +158,22 @@ const DonateForm = () => {
                 <div className="grid grid-cols-1 gap-4 mb-4">
                   <div>
                     <label className="block text-slate-700 font-medium mb-1">Bank Name</label>
-                    <div className="flex items-center bg-white rounded-lg border border-slate-200 px-4 py-3 text-slate-800 font-medium">Swiss National Bank <button type="button" className="ml-auto"><Copy className="w-4 h-4 text-slate-400" /></button></div>
+                    <div className="flex items-center bg-white rounded-lg border border-slate-200 px-4 py-3 text-slate-800 font-medium">Keystone Bank <button type="button" className="ml-auto"><Copy className="w-4 h-4 text-slate-400" /></button></div>
                   </div>
                   <div>
                     <label className="block text-slate-700 font-medium mb-1">Account Name</label>
-                    <div className="flex items-center bg-white rounded-lg border border-slate-200 px-4 py-3 text-slate-800 font-medium">Rinako Foundation <button type="button" className="ml-auto"><Copy className="w-4 h-4 text-slate-400" /></button></div>
+                    <div className="flex items-center bg-white rounded-lg border border-slate-200 px-4 py-3 text-slate-800 font-medium">RINAKO FOUNDATION FOR PEACE AND DEV <button type="button" className="ml-auto"><Copy className="w-4 h-4 text-slate-400" /></button></div>
                   </div>
                 </div>
                 <div className="grid grid-cols-1 gap-4 mb-4">
                   <div>
                     <label className="block text-slate-700 font-medium mb-1">Account Number</label>
-                    <div className="flex items-center bg-white rounded-lg border border-slate-200 px-4 py-3 text-slate-800 font-medium">CH93 0076 2011 6238 5295 7 <button type="button" className="ml-auto"><Copy className="w-4 h-4 text-slate-400" /></button></div>
+                    <div className="flex items-center bg-white rounded-lg border border-slate-200 px-4 py-3 text-slate-800 font-medium">1040645086 <button type="button" className="ml-auto"><Copy className="w-4 h-4 text-slate-400" /></button></div>
                   </div>
-                  <div>
+                  {/* <div>
                     <label className="block text-slate-700 font-medium mb-1">SWIFT/BIC Code</label>
                     <div className="flex items-center bg-white rounded-lg border border-slate-200 px-4 py-3 text-slate-800 font-medium">SNBZCHZZXXX <button type="button" className="ml-auto"><Copy className="w-4 h-4 text-slate-400" /></button></div>
-                  </div>
+                  </div> */}
                 </div>
                 <p className="text-slate-500 text-sm mb-4">Please include your name and email in the transfer reference for easier tracking.</p>
                 <div className="mb-4">
@@ -214,11 +214,11 @@ const DonateForm = () => {
               <h4 className="text-lg font-bold text-slate-900 mb-2">Donation Summary</h4>
               <div className="flex justify-between items-center mb-1">
                 <span className="text-slate-700">Donation Amount:</span>
-                <span className="font-semibold text-slate-900">${parseFloat(amount || 0).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</span>
+                <span className="font-semibold text-slate-900">₦{parseFloat(amount || 0).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</span>
               </div>
               <div className="flex justify-between items-center border-t border-t-gray-200 pt-2 mt-2">
                 <span className="text-slate-900 font-bold">Total:</span>
-                <span className="text-sky-600 font-bold text-lg">${parseFloat(amount || 0).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</span>
+                <span className="text-sky-600 font-bold text-lg">₦{parseFloat(amount || 0).toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</span>
               </div>
             </div>
             <button type="submit" className="w-full bg-sky-600 hover:bg-sky-700 transition-colors text-white font-semibold text-lg py-3 rounded-lg shadow mt-2">Complete Donation</button>

@@ -1,5 +1,6 @@
 "use client";
 import * as React from "react";
+import Link from "next/link";
 
 function HeroSection() {
   return (
@@ -30,9 +31,11 @@ function HeroSection() {
             <br />
             vulnerable children.
           </div>
-          <div className="rounded-lg bg-sky-600 self-center mt-6 px-6 py-3 text-base font-medium cursor-pointer hover:bg-sky-700 transition-colors">
-            Make a Donation
-          </div>
+          <Link href="/donate">
+            <div className="rounded-lg bg-sky-600 self-center mt-6 px-6 py-3 text-base font-medium cursor-pointer hover:bg-sky-700 transition-colors">
+              Make a Donation
+            </div>
+          </Link>
         </div>
       </div>
     </div>

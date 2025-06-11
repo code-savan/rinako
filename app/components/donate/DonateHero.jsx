@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const DonateHero = () => (
   <section className="relative w-full h-[500px] lg:h-[420px] flex items-center overflow-hidden">
@@ -18,9 +19,11 @@ const DonateHero = () => (
         Your donation helps us provide education, healthcare, and support to vulnerable children around the world. Together, we can create lasting change.
       </p>
       <div className="flex gap-4 mt-2">
-        <button className="bg-sky-600 hover:bg-sky-700 transition-colors text-white font-semibold text-base px-6 py-2 rounded-md shadow">
-          Donate Now
-        </button>
+        <Link href="/donate">
+          <button className="bg-sky-600 hover:bg-sky-700 transition-colors text-white font-semibold text-base px-6 py-2 rounded-md shadow">
+            Donate Now
+          </button>
+        </Link>
         <button className="border border-sky-600 text-sky-700 hover:bg-sky-50 font-semibold text-base px-6 py-2 rounded-md">
           See Your Impact
         </button>

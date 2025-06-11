@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { HandCoins, UserPlus, Users, Clock } from "lucide-react";
+import Link from "next/link";
 
 const donationAmounts = ["$25", "$50", "$100", "$250", "$500", "Custom"];
 
@@ -59,7 +60,9 @@ const SupportUs = () => {
                 ))}
               </div>
             </div>
-            <button className="mt-auto w-full bg-sky-600 hover:bg-sky-700 text-white font-semibold py-3 rounded-lg text-base transition">Donate Now</button>
+            <Link href="/donate" className="mt-auto">
+              <button className="mt-auto w-full bg-sky-600 hover:bg-sky-700 text-white font-semibold py-3 rounded-lg text-base transition">Donate Now</button>
+            </Link>
           </div>
 
           {/* Volunteer Opportunities */}
@@ -90,7 +93,9 @@ const SupportUs = () => {
                 <div className="flex items-center text-gray-400 text-xs gap-1"><Clock className="w-4 h-4" /> Short-term assignments available</div>
               </div>
             </div>
-            <button className="mt-auto w-full bg-sky-600 hover:bg-sky-700 text-white font-semibold py-3 rounded-lg text-base transition">Apply to Volunteer</button>
+            <Link href="/volunteer-application" className="mt-auto">
+              <button className="mt-auto w-full bg-sky-600 hover:bg-sky-700 text-white font-semibold py-3 rounded-lg text-base transition">Apply to Volunteer</button>
+            </Link>
           </div>
 
           {/* Partnership Opportunities */}

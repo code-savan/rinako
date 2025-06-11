@@ -15,7 +15,7 @@ const team = [
   },
   {
     img: "/team3.png",
-    name: "Mal. Harun Abdulqadir",
+    name: "Abdulsamad Harun Ibrahim",
     title: "Assistant",
     desc: "Coordinating operational activities and providing crucial support to executive leadership.",
   },

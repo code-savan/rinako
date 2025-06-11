@@ -12,8 +12,8 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="flex relative flex-col items-center w-full max-w-7xl mx-auto bg-white bg-opacity-90 z-50">
-      <div className="flex relative flex-col items-start px-4 py-3 w-full max-w-screen-2xl max-md:px-6 max-md:py-3 max-sm:px-4 max-sm:py-3">
+    <header className="fixed -top-1 md:top-0 flex flex-col items-center w-full  mx-auto bg-white bg-opacity-90 z-50">
+      <div className="flex relative flex-col items-start px-4 py-3 w-full max-w-7xl max-md:px-6 max-md:py-3 max-sm:px-4 max-sm:py-3">
         <div className="flex relative justify-between items-center w-full">
             <Link href="/">
           <img
@@ -64,7 +64,7 @@ function Header() {
 function NavigationMobile() {
   const navigationItems = [
     { text: "Home", path: "/" },
-    { text: "About Us", path: "/about" },
+    { text: "About Us", path: "/about-us" },
     { text: "Programs", path: "/programs" },
     { text: "Success Stories", path: "/success-stories" },
     { text: "News", path: "/news" },
