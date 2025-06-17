@@ -4,36 +4,57 @@ import { ArrowLeft, ArrowRight, Star, ArrowRightCircle } from "lucide-react";
 
 const testimonials = [
   {
-    img: "/voice1.png",
-    name: "Aisha Ibrahim",
-    role: "Women's Vocational Training Participant",
+    img: "/change1.png",
+    name: "Fatima Ibrahim",
+    role: "Microfinance Program Beneficiary",
     text: (
       <>
-        "Before joining the vocational training program, I struggled to provide for my children after losing my husband. The tailoring skills I learned have allowed me to start my own business and earn a stable income. Now I can pay for my children's education and our family has hope for the future."
+        "Before Rinako Foundation, I
+struggled to feed my children after
+losing my husband. The
+microfinance program helped me
+start my food business. Now I can
+pay for my children's education and
+even save for the future. My life has
+completely changed."
       </>
     ),
     location: "Maiduguri, Nigeria",
     link: "#",
   },
   {
-    img: "/voice2.png",
-    name: "Ibrahim Musa",
-    role: "Community Leader, Clean Water Initiative",
+    img: "/change2.png",
+    name: "Ibrahim Mohammed",
+    role: "Digital Skills Program Graduate",
     text: (
       <>
-        "The new water well has transformed our village. Before, our women and children would walk for hours to collect water that wasn't even clean. Now we have safe drinking water right in our community. Waterborne diseases have decreased dramatically, and our children have more time for school."
+        "The digital skills training opened
+doors I never thought possible. I
+now work remotely for a tech
+company in Lagos while still living in
+my community. I've trained five other
+young people who are now also
+employed. Thank you, Rinako
+Foundation!"
       </>
     ),
     location: "Yobe State, Nigeria",
     link: "#",
   },
   {
-    img: "/voice3.png",
-    name: "Fatima Abubakar",
-    role: "Student, School Building Program",
+    img: "/change3.png",
+    name: "Alhaji Musa",
+    role: "Village Head, Gwoza Community",
     text: (
       <>
-        "I love my new school! Before, we had classes under trees, and when it rained, we couldn't learn. Now we have beautiful classrooms with desks and books. My favorite subject is science, and I want to become a doctor when I grow up to help people in my community."
+        "The clean water project has
+transformed our village. Before,
+many children fell sick from
+waterborne diseases. Now, our
+community is healthier, children
+attend school regularly, and women
+spend less time fetching water. We
+are grateful to Rinako Foundation."
       </>
     ),
     location: "Borno State, Nigeria",
@@ -56,9 +77,10 @@ const VoicesOfImpact = () => {
   return (
     <section className="w-full bg-[#f8fafc] py-20 px-4 flex flex-col items-center">
       <div className="max-w-7xl w-full mx-auto flex flex-col items-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-800 text-center mb-2">Voices of Impact</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-slate-800 text-center mb-2">Voices of Change</h2>
         <p className="text-gray-500 text-center text-base mb-10 max-w-2xl">
-          Hear from those whose lives have been transformed through our programs.
+        Hear directly from those whose lives have been transformed
+
         </p>
         <div className="w-full flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl">
@@ -137,11 +159,11 @@ const VoicesOfImpact = () => {
             />
           ))}
         </div>
-        <button
+        {/* <button
           className="mt-2 px-8 py-3 border-2 border-sky-500 text-sky-700 font-semibold rounded-lg bg-white hover:bg-sky-50 transition text-base"
         >
           View All Success Stories
-        </button>
+        </button> */}
       </div>
     </section>
   );

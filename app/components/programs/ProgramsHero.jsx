@@ -3,11 +3,11 @@ import React from "react";
 const ProgramsHero = () => (
   <section className="relative w-full h-[500px] flex items-center bg-black/70 overflow-hidden">
     <img
-      src="https://images.unsplash.com/photo-1632560962375-99319eaf098b?q=80&w=3131"
+      src="/programhero.png"
       alt="Our Programs"
       className="absolute inset-0 w-full h-full object-cover object-center z-0"
     />
-    <div className="absolute inset-0 bg-black/60 z-10" />
+    {/* <div className="absolute inset-0 bg-black/60 z-10" /> */}
     <div className="relative z-20 flex flex-col items-start justify-center h-full w-full max-w-7xl px-6 mx-auto">
       <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-xl">Our Programs</h1>
       <p className="text-white text-lg md:text-xl font-normal mb-8 max-w-2xl drop-shadow-md">

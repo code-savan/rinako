@@ -3,7 +3,7 @@ import React from "react";
 const SuccessStoriesHero = () => (
   <section className="relative w-full  h-[500px] flex items-center bg-gray-900 overflow-hidden">
     <img
-      src="https://images.unsplash.com/photo-1727473704233-9b4aa9d6e82c?q=80&w=2940"
+      src="/successstoryhero.png"
       alt="Success Stories Hero"
       className="absolute inset-0 w-full h-full object-cover object-center z-0"
       draggable="false"
